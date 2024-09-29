@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import {View} from 'react-native';
+import ProfileCard from "@/src/components/ProfileCard";
 
 const Profile = () => {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Profile Screen</Text>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+            <ProfileCard/>
         </View>
     );
 }
