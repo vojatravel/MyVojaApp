@@ -12,10 +12,10 @@ const ProfileCard = ({ title, content, imagePath }: {title: string, content: str
 const ProfileGrid = () => {
 
     const profileData = [
-        { title: 'Name', content: 'Joppe', imagePath: require('../assets/images/joppe.jpg') },
-        { title: 'Relationship', content: 'Married', imagePath: require('../assets/images/ring.jpg') },
-        { title: 'Hobbies', content: 'Coding', imagePath: require('../assets/images/laptop.jpeg') },
-        { title: 'Favorite Food', content: 'Pizza', imagePath: require('../assets/images/pizza.jpg') },
+        { title: 'Name', content: 'Joppe', imagePath: require('../../assets/images/joppe.jpg') },
+        { title: 'Relationship', content: 'Married', imagePath: require('../../assets/images/ring.jpg') },
+        { title: 'Hobbies', content: 'Coding', imagePath: require('../../assets/images/laptop.jpeg') },
+        { title: 'Favorite Food', content: 'Sushi', imagePath: require('../../assets/images/pizza.jpg') },
     ];
 
     return (

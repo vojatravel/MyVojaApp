@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-import ProfileCard from "@/src/components/ProfileCard";
+import ProfileCard from "@/src/components/molecules/ProfileCard";
 
 const Profile = () => {
     return (
